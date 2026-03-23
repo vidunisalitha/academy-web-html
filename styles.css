@@ -1,0 +1,94 @@
+:root {
+    --bg-dark: #2c3440;
+    --gold: #cdae51;
+    --white: #ffffff;
+    --font-heading: 'Playfair Display', serif;
+    --font-ui: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: var(--bg-dark);
+    color: var(--white);
+}
+
+/* navBar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: transparent;
+    font-family: var(--font-ui);
+    letter-spacing: 0.5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* hero*/
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.badge {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: var(--gold);
+    font-family: var(--font-ui);
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: 4.5rem;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+/* Btns */
+.btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+    font-family: var(--font-ui);
+    letter-spacing: 0.5px;
+}
+
+.btn-gold {
+    background-color: var(--gold);
+    border: none;
+    color: #222;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    color: var(--white);
+    margin-left: 15px;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}

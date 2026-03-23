@@ -1,0 +1,20 @@
+{
+    "theme":{
+        "primary":"#2c3440",
+        "secondary":"#cdae51",
+        "textWhite":"#ffffff",
+        "textGray":"#b0b3b8"
+    },
+    "nav":{
+        "logo":"St. John's",
+        "links":["Home", "About Us", "Academics", "Faculty", "Contact Us"],
+        "brochure":"Request Brochure"
+    },
+    "hero":{
+        "welcome": "WELCOME TO",
+        "title":"St. John's Academy",
+        "subtitle": "Excellence in Education, Character in Life",
+        "btn1": "Request Brochure",
+        "btn2": "Explore"
+    }
+}
