@@ -1,20 +1,173 @@
 {
-    "theme":{
-        "primary":"#2c3440",
-        "secondary":"#cdae51",
-        "textWhite":"#ffffff",
-        "textGray":"#b0b3b8"
+    "page": {
+        "title": "St. Jude's Academy"
     },
-    "nav":{
-        "logo":"St. John's",
-        "links":["Home", "About Us", "Academics", "Faculty", "Contact Us"],
-        "brochure":"Request Brochure"
+    "theme": {
+        "backgroundTop": "#283548",
+        "backgroundMid": "#4b586b",
+        "backgroundBottom": "#03193d",
+        "gold": "#c9a743",
+        "textWhite": "#f3f5f7",
+        "textSoft": "#d0d5de"
     },
-    "hero":{
+    "nav": {
+        "logoMark": "SJA",
+        "logo": "St. Jude's",
+        "links": [
+            "Home",
+            "About Us",
+            "Academics",
+            "Faculty",
+            "Contact"
+        ],
+        "academicsDropdown": [
+            "Primary Curriculum",
+            "Middle School",
+            "High School",
+            "IB Programme",
+            "College Counseling",
+            "Library Resources"
+        ],
+        "button": "Request Brochure"
+    },
+    "hero": {
         "welcome": "WELCOME TO",
-        "title":"St. John's Academy",
+        "title": "St. Jude's Academy",
         "subtitle": "Excellence in Education, Character in Life",
-        "btn1": "Request Brochure",
-        "btn2": "Explore"
+        "primaryButton": "Request Brochure",
+        "secondaryButton": "Explore Campus"
+    },
+    "stats": {
+        "cards": [
+            {
+                "iconClass": "bi-people",
+                "value": 1500,
+                "suffix": "+",
+                "label": "Students Enrolled"
+            },
+            {
+                "iconClass": "bi-award",
+                "value": 50,
+                "suffix": "+",
+                "label": "Expert Faculty"
+            },
+            {
+                "iconClass": "bi-book",
+                "value": 30,
+                "suffix": "+",
+                "label": "Years of Excellence"
+            }
+        ]
+    },
+    "message": {
+        "kicker": "WELCOME",
+        "titleMain": "A Tradition of",
+        "titleAccent": "Excellence",
+        "quote": "At St. Jude's, we don't just prepare students for college; we prepare them for life. Our commitment to academic rigor is matched only by our dedication to character development and global citizenship.",
+        "name": "Dr. Eleanor Vance",
+        "role": "Head of School",
+        "button": "Read Full Message ->",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80"
+    },
+    "news": {
+        "kicker": "STAY UPDATED",
+        "title": "Latest News & Events",
+        "viewAllButton": "View All News",
+        "cards": [
+            {
+                "category": "ACADEMICS",
+                "date": "Oct 15, 2025",
+                "title": "National Science Fair Winners",
+                "description": "Our senior robotics team took first place at the National STEM Championship, showcasing their innovative AI-driven projects.",
+                "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1000&q=80",
+                "linkText": "Learn More"
+            },
+            {
+                "category": "ARTS",
+                "date": "Nov 02, 2025",
+                "title": "Annual Arts Gala Announced",
+                "description": "Join us for an evening of spectacular performances and visual arts exhibitions featuring works from our advanced students.",
+                "image": "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?auto=format&fit=crop&w=1000&q=80",
+                "linkText": "Learn More"
+            },
+            {
+                "category": "CAMPUS",
+                "date": "Nov 20, 2025",
+                "title": "New Athletics Complex Opening",
+                "description": "The highly anticipated state-of-the-art athletics facility will officially open its doors next month, featuring an Olympic-size arena.",
+                "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1000&q=80",
+                "linkText": "Learn More"
+            }
+        ]
+    },
+    "journey": {
+        "kicker": "OUR LEGACY",
+        "title": "A Journey of Excellence",
+        "events": [
+            {
+                "year": "1995",
+                "title": "Foundation",
+                "description": "St. Jude's Academy was established with a founding class of just 50 students."
+            },
+            {
+                "year": "2002",
+                "title": "Campus Expansion",
+                "description": "Inauguration of the West Wing, adding advanced science laboratories and a new library."
+            },
+            {
+                "year": "2010",
+                "title": "International Baccalaureate",
+                "description": "Officially authorized as an IB World School, offering the prestigious Diploma Programme."
+            },
+            {
+                "year": "2018",
+                "title": "Innovation Center",
+                "description": "Opening of the state-of-the-art technology and robotics innovation hub."
+            },
+            {
+                "year": "2025",
+                "title": "30th Anniversary",
+                "description": "Celebrating three decades of academic excellence and community leadership."
+            }
+        ]
+    },
+    "facilities": {
+        "kicker": "CAMPUS LIFE",
+        "title": "World-Class Facilities",
+        "cards": [
+            {
+                "slot": "labs",
+                "title": "Advanced Science Labs",
+                "image": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=1200&q=80"
+            },
+            {
+                "slot": "sports",
+                "title": "Championship Sports Field",
+                "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80"
+            },
+            {
+                "slot": "library",
+                "title": "Grand Library",
+                "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80"
+            },
+            {
+                "slot": "tech",
+                "title": "Innovation Tech Hub",
+                "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&w=1200&q=80"
+            },
+            {
+                "slot": "creative",
+                "title": "Creative Art Studios",
+                "image": "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?auto=format&fit=crop&w=1200&q=80"
+            },
+            {
+                "slot": "arts",
+                "title": "Performing Arts Auditorium",
+                "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80"
+            }
+        ]
+    },
+    "floatingButton": {
+        "ariaLabel": "Back to top"
     }
 }
