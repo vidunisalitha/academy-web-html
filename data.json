@@ -14,19 +14,52 @@
         "logoMark": "SJA",
         "logo": "St. Jude's",
         "links": [
-            "Home",
-            "About Us",
-            "Academics",
-            "Faculty",
-            "Contact"
+            {
+                "text": "Home",
+                "sectionId": "hero"
+            },
+            {
+                "text": "About Us",
+                "sectionId": "message-section"
+            },
+            {
+                "text": "Academics",
+                "sectionId": "pathways-section"
+            },
+            {
+                "text": "Faculty",
+                "sectionId": "faculty-section"
+            },
+            {
+                "text": "Contact",
+                "sectionId": "contact-section"
+            }
         ],
         "academicsDropdown": [
-            "Primary Curriculum",
-            "Middle School",
-            "High School",
-            "IB Programme",
-            "College Counseling",
-            "Library Resources"
+            {
+                "text": "Primary Curriculum",
+                "sectionId": "pathways-section"
+            },
+            {
+                "text": "Middle School",
+                "sectionId": "pathways-section"
+            },
+            {
+                "text": "High School",
+                "sectionId": "tuition-section"
+            },
+            {
+                "text": "IB Programme",
+                "sectionId": "pathways-section"
+            },
+            {
+                "text": "College Counseling",
+                "sectionId": "faculty-section"
+            },
+            {
+                "text": "Library Resources",
+                "sectionId": "facilities-section"
+            }
         ],
         "button": "Request Brochure"
     },
@@ -36,6 +69,163 @@
         "subtitle": "Excellence in Education, Character in Life",
         "primaryButton": "Request Brochure",
         "secondaryButton": "Explore Campus"
+    },
+    "pathways": {
+        "kicker": "CURRICULUM",
+        "title": "Academic Pathways",
+        "cards": [
+            {
+                "id": "primary",
+                "iconClass": "bi-book",
+                "title": "Primary Years",
+                "grades": "Grades 1 - 5",
+                "description": "Fostering curiosity and foundational skills in a nurturing environment.",
+                "buttonText": "Explore Curriculum",
+                "coreSubjects": [
+                    "Language Arts",
+                    "Mathematics",
+                    "Inquiry Science",
+                    "Global Studies",
+                    "Creative Arts"
+                ]
+            },
+            {
+                "id": "middle",
+                "iconClass": "bi-calculator",
+                "title": "Middle Years",
+                "grades": "Grades 6 - 8",
+                "description": "Developing critical thinking and independence during transitional years.",
+                "buttonText": "Explore Curriculum",
+                "coreSubjects": [
+                    "Advanced Literature",
+                    "Pre-Algebra & Algebra",
+                    "Earth & Life Sciences",
+                    "World History",
+                    "Foreign Languages"
+                ]
+            },
+            {
+                "id": "high",
+                "iconClass": "bi-mortarboard",
+                "title": "High School & IB",
+                "grades": "Grades 9 - 12",
+                "description": "Rigorous college preparation and specialized advanced placement courses.",
+                "buttonText": "Explore Curriculum",
+                "coreSubjects": [
+                    "AP/IB English",
+                    "Calculus & Statistics",
+                    "Physics & Chemistry",
+                    "Economics & Politics",
+                    "Computer Science"
+                ]
+            }
+        ]
+    },
+    "tuition": {
+        "title": "Tuition & Fees",
+        "subtitle": "Transparent pricing for a world-class education.",
+        "columns": [
+            "Grade Level",
+            "Tuition",
+            "Activities",
+            "Technology",
+            "Total"
+        ],
+        "rows": [
+            {
+                "gradeLevel": "Primary (1-5)",
+                "tuition": "$24,500",
+                "activities": "$1,200",
+                "technology": "$500",
+                "total": "$26,200"
+            },
+            {
+                "gradeLevel": "Middle (6-8)",
+                "tuition": "$28,000",
+                "activities": "$1,500",
+                "technology": "$800",
+                "total": "$30,300"
+            },
+            {
+                "gradeLevel": "High School (9-12)",
+                "tuition": "$32,500",
+                "activities": "$2,000",
+                "technology": "$1,200",
+                "total": "$35,700"
+            }
+        ],
+        "note": "* Additional fees may apply for specialized IB courses, uniforms, and transportation."
+    },
+    "faculty": {
+        "kicker": "OUR EXPERTS",
+        "title": "Distinguished Faculty",
+        "subtitle": "Learn from industry leaders, published authors, and passionate educators dedicated to student success.",
+        "directoryButton": "View All Faculty Directory",
+        "cards": [
+            {
+                "name": "Dr. James Wilson",
+                "role": "History Department Chair",
+                "department": "HUMANITIES",
+                "image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                "name": "Amira Hassan",
+                "role": "Director of Arts",
+                "department": "FINE ARTS",
+                "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                "name": "David Kim",
+                "role": "Computer Science Lead",
+                "department": "TECHNOLOGY",
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                "name": "Claire Dubois",
+                "role": "Modern Languages",
+                "department": "LANGUAGES",
+                "image": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=800&q=80"
+            }
+        ]
+    },
+    "contact": {
+        "kicker": "GET IN TOUCH",
+        "title": "Visit Our Campus",
+        "infoItems": [
+            {
+                "iconClass": "bi-geo-alt",
+                "label": "Location",
+                "value": "123 Prestige Avenue, Academic District, NY 10001"
+            },
+            {
+                "iconClass": "bi-telephone",
+                "label": "Phone",
+                "value": "+1 (555) 123-4567"
+            },
+            {
+                "iconClass": "bi-envelope",
+                "label": "Email",
+                "value": "admissions@stjudes.edu"
+            }
+        ],
+        "map": {
+            "title": "Interactive Map Integration",
+            "subtitle": "Click to explore campus",
+            "backgroundImage": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1200&q=80",
+            "url": "https://maps.google.com"
+        },
+        "form": {
+            "title": "Request a Brochure",
+            "subtitle": "Fill out the form below and our admissions team will contact you shortly.",
+            "nameLabel": "Full Name",
+            "namePlaceholder": "John Doe",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "john@example.com",
+            "messageLabel": "Message or Questions",
+            "messagePlaceholder": "How can we help you?",
+            "submitLabel": "Submit Request",
+            "successMessage": "Thank you. Your request has been submitted."
+        }
     },
     "stats": {
         "cards": [
@@ -169,5 +359,113 @@
     },
     "floatingButton": {
         "ariaLabel": "Back to top"
+    },
+    "footer": {
+        "logo": "St. Jude's",
+        "logoMark": "SJA",
+        "tagline": "Excellence in Education, Character in Life. Preparing the leaders of tomorrow through rigorous academics and character development.",
+        "socialLinks": [
+            {
+                "iconClass": "bi-facebook",
+                "url": "#"
+            },
+            {
+                "iconClass": "bi-twitter",
+                "url": "#"
+            },
+            {
+                "iconClass": "bi-instagram",
+                "url": "#"
+            },
+            {
+                "iconClass": "bi-linkedin",
+                "url": "#"
+            },
+            {
+                "iconClass": "bi-youtube",
+                "url": "#"
+            }
+        ],
+        "quickLinks": {
+            "heading": "Quick Links",
+            "links": [
+                {
+                    "text": "About Us",
+                    "sectionId": "message-section"
+                },
+                {
+                    "text": "Admissions Process",
+                    "sectionId": "contact-section"
+                },
+                {
+                    "text": "Campus Life",
+                    "sectionId": "facilities-section"
+                },
+                {
+                    "text": "News & Events",
+                    "sectionId": "news-section"
+                },
+                {
+                    "text": "Alumni Network",
+                    "sectionId": "journey-section"
+                },
+                {
+                    "text": "Careers",
+                    "sectionId": "contact-section"
+                }
+            ]
+        },
+        "academics": {
+            "heading": "Academics",
+            "links": [
+                {
+                    "text": "Primary Curriculum",
+                    "sectionId": "pathways-section"
+                },
+                {
+                    "text": "Middle School",
+                    "sectionId": "pathways-section"
+                },
+                {
+                    "text": "High School",
+                    "sectionId": "tuition-section"
+                },
+                {
+                    "text": "IB Programme",
+                    "sectionId": "pathways-section"
+                },
+                {
+                    "text": "College Counseling",
+                    "sectionId": "faculty-section"
+                },
+                {
+                    "text": "Library Resources",
+                    "sectionId": "facilities-section"
+                }
+            ]
+        },
+        "contactInfo": {
+            "heading": "Contact Us",
+            "address": "123 Prestige Avenue, Academic District, NY 10001",
+            "phone": "+1 (555) 123-4567",
+            "email": "admissions@stjudes.edu"
+        },
+        "bottom": {
+            "copyright": "© 2026 St. Jude's Academy. All rights reserved.",
+            "links": [
+                {
+                    "text": "Privacy Policy",
+                    "url": "#"
+                },
+                {
+                    "text": "Terms of Service",
+                    "url": "#"
+                },
+                {
+                    "text": "Accessibility",
+                    "url": "#"
+                }
+            ]
+        }
     }
 }

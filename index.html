@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title"></title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header class="navbar">
         <div class="brand">
@@ -111,8 +115,131 @@
         </div>
     </section>
 
+    <section class="pathways-section" id="pathways-section">
+        <div class="pathways-wrap">
+            <div class="pathways-head">
+                <p class="pathways-kicker" id="pathways-kicker"></p>
+                <h2 class="pathways-title" id="pathways-title"></h2>
+                <span class="pathways-head-line"></span>
+            </div>
+            <div class="pathways-grid" id="pathways-grid"></div>
+        </div>
+    </section>
+
+    <section class="tuition-section" id="tuition-section">
+        <div class="tuition-wrap">
+            <div class="tuition-head">
+                <h2 class="tuition-title" id="tuition-title"></h2>
+                <p class="tuition-subtitle" id="tuition-subtitle"></p>
+            </div>
+
+            <div class="tuition-table-wrap">
+                <table class="tuition-table" id="tuition-table">
+                    <thead id="tuition-table-head"></thead>
+                    <tbody id="tuition-table-body"></tbody>
+                </table>
+            </div>
+
+            <p class="tuition-note" id="tuition-note"></p>
+        </div>
+    </section>
+
+    <section class="faculty-section" id="faculty-section">
+        <div class="faculty-wrap">
+            <div class="faculty-head">
+                <p class="faculty-kicker" id="faculty-kicker"></p>
+                <h2 class="faculty-title" id="faculty-title"></h2>
+                <span class="faculty-head-line"></span>
+                <p class="faculty-subtitle" id="faculty-subtitle"></p>
+            </div>
+
+            <div class="faculty-grid" id="faculty-grid"></div>
+
+            <div class="faculty-actions">
+                <button class="faculty-directory-btn" id="faculty-directory-btn" type="button"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <div class="contact-wrap">
+            <div class="contact-left">
+                <p class="contact-kicker" id="contact-kicker"></p>
+                <h2 class="contact-title" id="contact-title"></h2>
+
+                <div class="contact-info-list" id="contact-info-list"></div>
+
+                <div class="contact-map-card" id="contact-map-card" role="button" tabindex="0" aria-label="Open map">
+                    <div class="contact-map-overlay">
+                        <div class="contact-map-icon-wrap">
+                            <i class="bi bi-geo-alt-fill contact-map-icon"></i>
+                        </div>
+                        <h3 class="contact-map-title" id="contact-map-title"></h3>
+                        <p class="contact-map-subtitle" id="contact-map-subtitle"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h3 class="contact-form-title" id="contact-form-title"></h3>
+                <p class="contact-form-subtitle" id="contact-form-subtitle"></p>
+
+                <form id="prospectus-form" class="prospectus-form" novalidate>
+                    <label class="prospectus-label" for="prospectus-name" id="prospectus-name-label"></label>
+                    <input class="prospectus-input" id="prospectus-name" name="name" type="text" required>
+
+                    <label class="prospectus-label" for="prospectus-email" id="prospectus-email-label"></label>
+                    <input class="prospectus-input" id="prospectus-email" name="email" type="email" required>
+
+                    <label class="prospectus-label" for="prospectus-message" id="prospectus-message-label"></label>
+                    <textarea class="prospectus-textarea" id="prospectus-message" name="message" rows="5" required></textarea>
+
+                    <button class="prospectus-submit" id="prospectus-submit" type="submit"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <button class="to-top-btn" id="to-top-btn" type="button" aria-label="Back to top">&#8593;</button>
-    
+
+    <footer class="footer" id="footer">
+        <div class="footer-wrap">
+            <div class="footer-main">
+                <div class="footer-brand-col">
+                    <div class="footer-brand">
+                        <span class="footer-brand-mark" id="footer-logo-mark"></span>
+                        <span class="footer-brand-text" id="footer-logo-text"></span>
+                    </div>
+                    <p class="footer-tagline" id="footer-tagline"></p>
+                    <div class="footer-social-links" id="footer-social-links"></div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-col-heading" id="quick-links-heading"></h4>
+                    <ul class="footer-link-list" id="quick-links-list"></ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-col-heading" id="academics-heading"></h4>
+                    <ul class="footer-link-list" id="academics-links-list"></ul>
+                </div>
+
+                <div class="footer-contact-col">
+                    <h4 class="footer-col-heading" id="contact-heading"></h4>
+                    <p class="footer-contact-item" id="footer-address"></p>
+                    <p class="footer-contact-item" id="footer-phone"></p>
+                    <p class="footer-contact-item" id="footer-email"></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright" id="footer-copyright"></p>
+                <div class="footer-bottom-links" id="footer-bottom-links"></div>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
